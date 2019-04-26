@@ -224,7 +224,7 @@ p{margin: 20px 0}
 
 button{
     margin-bottom: 30px;
-    padding-bottom: 10px;
+    padding: auto;
     width: 100px;
     border: 1px solid black;
     height: 40px;
