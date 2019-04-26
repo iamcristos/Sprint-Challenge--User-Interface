@@ -144,3 +144,42 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    align-items: center
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+ display: flex;
+ align-items: center;
+ justify-content: center
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+nav a{
+    padding: 10px 40px;
+    text-decoration: none;
+    color: lightslategrey
+}
+
+.banner-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 0px
+}
