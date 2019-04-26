@@ -194,3 +194,40 @@ nav a{
 .middle-content .boxes .box-8{background-color: hotpink}
 .middle-content .boxes .box-9{background-color: indigo;}
 .middle-content .boxes .box-10{ background-color: dodgerblue;}
+
+section{
+    margin: 20px 0
+}
+.container-1 {
+    margin: 15px 0;
+    border-bottom: 1px dashed black
+}
+p{margin: 20px 0}
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center
+}
+
+.wrapper-left,.wrapper-right{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+    justify-content: center;
+    border-bottom: 1px dashed black
+}
+.img-container {
+    padding: 30px 0
+}
+
+button{
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    width: 100px;
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 10px;
+    background: white
+}
